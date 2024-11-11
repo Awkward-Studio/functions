@@ -14,5 +14,6 @@ export default async function (req, res) {
     res.json(userList);
     console.log(userList)
     
+    
     return userList;
 };
