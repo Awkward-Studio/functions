@@ -12,10 +12,5 @@ export default async function (req, res) {
 
     const userList = await users.list();
     res.json(userList);
-    // try {
-    // } catch (error) {
-    //     res.json({ error: error.message });
-    // }
-
     return userList;
 };
