@@ -13,5 +13,6 @@ export default async function (req, res) {
     const userList = await users.list();
     res.json(userList);
     console.log(userList)
+    
     return userList;
 };
